@@ -1,0 +1,194 @@
+.Product-Name
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Product-Description
+{
+    font-size: 15px;
+    color: gray;
+}
+a
+{
+    text-decoration: none;
+}
+.Text-Center-X-Y
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Text-Center-Y
+{
+    display: flex;
+    justify-content: center;
+}
+.Text-Center-X
+{
+    text-align: center;
+}
+.Padding-Bottom
+{
+    padding-bottom: 50px;
+}
+.Padding-Bottom-10px
+{
+    padding-bottom: 10px; 
+}
+.Padding-Right-10px
+{
+    padding-right: 10px; 
+}
+.Display-Flex-Jus-S
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Display-Flex-Jus-E
+{
+    display: flex;
+    justify-content:end
+}
+.Display-Flex
+{
+    display: flex;
+}
+.Check-Out-Button
+{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 10px 0 ;
+    border-radius: 12px;
+    background-color: black;
+    opacity: 0.3;
+    color: white;
+    font-size: 15px;
+    pointer-events: none;
+}
+.Check-Out-Button-Active
+{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 10px 0 ;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.Shopping-Cart
+{
+    padding: 0px 20px 0 20px;
+}
+.Page-Title
+{
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
+.PPT
+{
+    display: flex;
+    width: 100%;
+}
+.PPT .PPT-Product
+{
+    width: 20%;
+}
+.PPT .PPT-Description
+{
+    width: 30%;
+}
+.PPT .PPT-Price
+{
+    width: 20%;
+}
+.PPT .PPT-Quantity
+{
+    width: 10%;
+}
+.PPT .PPT-Total
+{
+    width: 20%;
+}
+.PPT-Text
+{
+    font-weight: bold;
+}
+.Horizontal-Line
+{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+.PPT .PPT-Product img
+{
+    width: 100%;
+    min-width: 80px;
+}
+.PPT-Description .Product-Description
+{
+    padding: 5px 0 5px 0;
+}
+.PPT-Description .Product-Name
+{
+    padding: 5px 0 5px 0;
+}
+.PPT-Description .Product-Remove
+{
+    padding: 5px 0 5px 0;
+}
+.Coupon-Part
+{
+    width: 300px;
+}
+.Vertical-Line
+{
+    height: 40px;
+    width: 1px;
+    background-color: black;
+}
+.Coupon-click
+{
+    padding: 10px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px) 
+{
+    .PPT-Quantity
+    {
+        display: none;
+        width: 0;
+    }
+    .PPT-Total
+    {
+        display: none;
+        width: 0;
+    }
+    .PPT .PPT-Price
+    {
+
+        width: 40%;
+        display: flex;
+        justify-content: end;
+    }
+    .PPT .PPT-Product
+    {
+        width: 30%;
+        padding-right: 10px;
+    }
+    .PPT .PPT-Description
+    {
+        width: 30%;
+    }
+
+}
+
+
